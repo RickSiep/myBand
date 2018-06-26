@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+
+}
+body{
+    text-align: center;
+    background-image: url("../../images/vertigo_no_text.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.links{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.news, .home{
+    padding-left: 20px;
+}
+i{
+    margin-right: 0.2em;
+}
+h1{
+    padding: 25px;
+}
+.wrapper{
+    height:20px;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+.wrapper a{
+    float: left;
+}
+.content{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+#home{
+    background-image: url("../../images/vertigo.jpg");
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#zoek{
+    float: right;
+}
+
+/*Table*/
+   table, tr, td {
+       border: solid 1px black;
+       border-collapse: collapse;
+       padding: 2px;
+   }
